@@ -1,0 +1,410 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */{
+  "sections": {
+    "story_intro": {
+      "type": "media-with-content",
+      "name": "t:names.editorial",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {},
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center"
+          },
+          "blocks": {
+            "intro_eyebrow": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Mews &amp; Hound · London</p>",
+                "type_preset": "h6",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left"
+              },
+              "blocks": {}
+            },
+            "intro_heading": {
+              "type": "text",
+              "settings": {
+                "text": "<h1>Our Story</h1>",
+                "type_preset": "h1",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left"
+              },
+              "blocks": {}
+            },
+            "intro_text": {
+              "type": "text",
+              "settings": {
+                "text": "<p>London is a city of walkers, and its dogs know it. From the cobbled mews of Kensington to the towpaths of Regent’s Canal, the walk is where the city slows down.</p>",
+                "type_preset": "rte",
+                "width": "100%",
+                "max_width": "narrow",
+                "alignment": "left"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "intro_eyebrow",
+            "intro_heading",
+            "intro_text"
+          ]
+        }
+      },
+      "settings": {
+        "media_position": "left",
+        "media_width": "medium",
+        "media_height": "60svh",
+        "background_color": "{{ settings.color_palette.background }}"
+      }
+    },
+    "story_frustration": {
+      "type": "section",
+      "name": "t:names.rich_text_section",
+      "blocks": {
+        "frustration_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mews &amp; Hound began with a simple frustration: dog leads were either loud and plastic or stiff and over-designed. We wanted something that looked like it belonged with a good wool coat and a pair of worn-in boots. So we made it.</p>",
+            "type_preset": "h4",
+            "width": "100%",
+            "max_width": "narrow",
+            "alignment": "center"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "frustration_text"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 80,
+        "padding-block-end": 80
+      }
+    },
+    "story_materials": {
+      "type": "section",
+      "name": "t:names.image_with_text",
+      "blocks": {
+        "materials_image": {
+          "type": "image",
+          "settings": {
+            "image": "",
+            "image_ratio": "square"
+          },
+          "blocks": {}
+        },
+        "materials_copy": {
+          "type": "group",
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "width": "custom"
+          },
+          "blocks": {
+            "materials_heading": {
+              "type": "text",
+              "settings": {
+                "text": "<h2>Colours borrowed from the city</h2>",
+                "type_preset": "h2",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left"
+              },
+              "blocks": {}
+            },
+            "materials_text": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Each piece pairs soft, hand-finished rope with solid brass hardware, in colours borrowed from the city: Portland stone, Thames grey, Hyde Park green, Chelsea blush. Designed in London, made to be walked in every day, anywhere.</p>",
+                "type_preset": "rte",
+                "width": "100%",
+                "max_width": "narrow",
+                "alignment": "left"
+              },
+              "blocks": {}
+            },
+            "materials_button": {
+              "type": "button",
+              "settings": {
+                "label": "Shop the Collection",
+                "link": "/collections/rope-collection",
+                "style_class": "button-custom",
+                "custom_button_background": "{{ settings.color_palette.background }}",
+                "custom_button_text": "{{ settings.color_palette.color1 }}",
+                "custom_button_border": "{{ settings.color_palette.background }}",
+                "open_in_new_tab": false,
+                "width": "fit-content",
+                "width_mobile": "fit-content"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "materials_heading",
+            "materials_text",
+            "materials_button"
+          ]
+        }
+      },
+      "block_order": [
+        "materials_image",
+        "materials_copy"
+      ],
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "gap": 48,
+        "section_width": "page-width",
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "padding-block-start": 64,
+        "padding-block-end": 64
+      }
+    },
+    "story_pillars": {
+      "type": "section",
+      "name": "t:names.icons_with_text",
+      "blocks": {
+        "pillar_luxury": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "height": "fit"
+          },
+          "blocks": {
+            "pillar_luxury_icon": {
+              "type": "icon",
+              "settings": {
+                "icon": "star",
+                "width": 32,
+                "link": "",
+                "icon_color": "{{ settings.color_palette.color3 }}"
+              },
+              "blocks": {}
+            },
+            "pillar_luxury_heading": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Quiet luxury</h3>",
+                "type_preset": "h4",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center"
+              },
+              "blocks": {}
+            },
+            "pillar_luxury_text": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Muted colours, no loud logos, materials that age well.</p>",
+                "type_preset": "rte",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "pillar_luxury_icon",
+            "pillar_luxury_heading",
+            "pillar_luxury_text"
+          ]
+        },
+        "pillar_heritage": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "height": "fit"
+          },
+          "blocks": {
+            "pillar_heritage_icon": {
+              "type": "icon",
+              "settings": {
+                "icon": "map_pin",
+                "width": 32,
+                "link": "",
+                "icon_color": "{{ settings.color_palette.color3 }}"
+              },
+              "blocks": {}
+            },
+            "pillar_heritage_heading": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>London heritage</h3>",
+                "type_preset": "h4",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center"
+              },
+              "blocks": {}
+            },
+            "pillar_heritage_text": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Every colour and collection is named after a real corner of the city.</p>",
+                "type_preset": "rte",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "pillar_heritage_icon",
+            "pillar_heritage_heading",
+            "pillar_heritage_text"
+          ]
+        },
+        "pillar_daily": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "height": "fit"
+          },
+          "blocks": {
+            "pillar_daily_icon": {
+              "type": "icon",
+              "settings": {
+                "icon": "paw_print",
+                "width": 32,
+                "link": "",
+                "icon_color": "{{ settings.color_palette.color3 }}"
+              },
+              "blocks": {}
+            },
+            "pillar_daily_heading": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Built for the daily walk</h3>",
+                "type_preset": "h4",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center"
+              },
+              "blocks": {}
+            },
+            "pillar_daily_text": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Strong hardware, soft hand-feel, easy to clean.</p>",
+                "type_preset": "rte",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "pillar_daily_icon",
+            "pillar_daily_heading",
+            "pillar_daily_text"
+          ]
+        },
+        "pillar_set": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "height": "fit"
+          },
+          "blocks": {
+            "pillar_set_icon": {
+              "type": "icon",
+              "settings": {
+                "icon": "box",
+                "width": 32,
+                "link": "",
+                "icon_color": "{{ settings.color_palette.color3 }}"
+              },
+              "blocks": {}
+            },
+            "pillar_set_heading": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>A matching set</h3>",
+                "type_preset": "h4",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center"
+              },
+              "blocks": {}
+            },
+            "pillar_set_text": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Lead, collar and walking bag, sold as a coordinated look.</p>",
+                "type_preset": "rte",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "pillar_set_icon",
+            "pillar_set_heading",
+            "pillar_set_text"
+          ]
+        }
+      },
+      "block_order": [
+        "pillar_luxury",
+        "pillar_heritage",
+        "pillar_daily",
+        "pillar_set"
+      ],
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "gap": 32,
+        "section_width": "page-width",
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 64,
+        "padding-block-end": 80
+      }
+    }
+  },
+  "order": [
+    "story_intro",
+    "story_frustration",
+    "story_materials",
+    "story_pillars"
+  ]
+}
