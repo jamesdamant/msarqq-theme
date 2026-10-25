@@ -19,8 +19,8 @@
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "h2",
-            "font": "var(--font-body--family)",
+            "type_preset": "h1",
+            "font": "var(--font-heading--family)",
             "line_height": "normal",
             "letter_spacing": "normal",
             "case": "none",
@@ -58,9 +58,21 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "collection_eyebrow": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mews &amp; Hound · London</p>",
+            "type_preset": "h6",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left"
+          },
+          "blocks": {}
         }
       },
       "block_order": [
+        "collection_eyebrow",
         "text_tqQTNE",
         "text_twGGkJ"
       ],

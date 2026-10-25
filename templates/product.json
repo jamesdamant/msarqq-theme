@@ -298,6 +298,115 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "product_accordion": {
+              "type": "accordion",
+              "settings": {
+                "icon": "plus",
+                "dividers": true,
+                "divider_color": "{{ settings.color_palette.color2 }}",
+                "type_preset": "h4"
+              },
+              "blocks": {
+                "accordion_row_materials": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Materials and care",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "accordion_text_materials": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Hand-finished cotton rope with solid brass fittings. Sponge clean with mild soap and air dry away from radiators. The brass darkens with age; that is rather the point.</p>",
+                        "type_preset": "rte",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "accordion_text_materials"
+                  ]
+                },
+                "accordion_row_sizing": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Sizing",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "accordion_text_sizing": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Leads come in 120 cm (4 ft) and 180 cm (6 ft). Collars come in XS to L: measure around your dog's neck and add two fingers' width. Between sizes? Size up.</p>",
+                        "type_preset": "rte",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "accordion_text_sizing"
+                  ]
+                },
+                "accordion_row_delivery": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Delivery and returns",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "accordion_text_delivery": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Free UK delivery over £50. Free US shipping over $75. Full details, including returns, on our <a href=\"/pages/delivery\">delivery page</a>.</p>",
+                        "type_preset": "rte",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "accordion_text_delivery"
+                  ]
+                },
+                "accordion_row_gift_box": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "The gift box",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "accordion_text_gift_box": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Every order arrives in our green box with Portland Stone tissue and a brass seal. Recyclable, all of it.</p>",
+                        "type_preset": "rte",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "accordion_text_gift_box"
+                  ]
+                }
+              },
+              "block_order": [
+                "accordion_row_materials",
+                "accordion_row_sizing",
+                "accordion_row_delivery",
+                "accordion_row_gift_box"
+              ]
             }
           },
           "block_order": [
@@ -305,7 +414,8 @@
             "divider_VJhene",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
-            "text_aEtTtq"
+            "text_aEtTtq",
+            "product_accordion"
           ]
         }
       },
@@ -331,7 +441,7 @@
           "type": "text",
           "name": "t:names.header",
           "settings": {
-            "text": "<h3>You may also like </h3>",
+            "text": "<h3>Complete the set</h3>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -449,11 +559,11 @@
       "name": "t:names.product_recommendations",
       "settings": {
         "product": "{{ closest.product }}",
-        "recommendation_type": "related",
+        "recommendation_type": "complementary",
         "layout_type": "grid",
         "carousel_on_mobile": false,
-        "max_products": 4,
-        "columns": 4,
+        "max_products": 3,
+        "columns": 3,
         "mobile_columns": "2",
         "columns_gap": 12,
         "rows_gap": 24,

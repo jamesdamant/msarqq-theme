@@ -134,7 +134,7 @@
     "email_signup": {
       "label": "Email",
       "placeholder": "Email address",
-      "success": "Thanks for subscribing!"
+      "success": "Welcome to the Walking Club. Your 10% code is on its way."
     },
     "filter": "Filter",
     "load_video": "Load video: {{ description }}",
@@ -282,7 +282,7 @@
     "search_results_view_all": "View all",
     "search_results_view_all_button": "View all",
     // Label for customer's note to seller during checkout
-    "seller_note": "Special instructions",
+    "seller_note": "Add a gift note",
     "shipping_policy": "Shipping calculated at checkout.",
     "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
     "store_owner_link_html": "Are you the store owner? <a href=\"{{ link }}\">Log in here</a>",
