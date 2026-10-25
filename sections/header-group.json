@@ -18,7 +18,7 @@
           "type": "_announcement",
           "settings": {
             "text": "Free UK delivery over £50",
-            "link": "shopify://pages/delivery",
+            "link": "/pages/delivery",
             "font": "var(--font-accent--family)",
             "font_size": "0.75rem",
             "letter_spacing": "loose",
@@ -30,7 +30,7 @@
           "type": "_announcement",
           "settings": {
             "text": "Free US shipping over $75",
-            "link": "shopify://pages/delivery",
+            "link": "/pages/delivery",
             "font": "var(--font-accent--family)",
             "font_size": "0.75rem",
             "letter_spacing": "loose",
@@ -42,7 +42,7 @@
           "type": "_announcement",
           "settings": {
             "text": "Gift-boxed as standard",
-            "link": "shopify://collections/sets",
+            "link": "/collections/sets",
             "font": "var(--font-accent--family)",
             "font_size": "0.75rem",
             "letter_spacing": "loose",
@@ -91,7 +91,7 @@
             "type_case_primary_link": "uppercase",
             "menu_style": "featured_collections",
             "featured_products_aspect_ratio": "4 / 5",
-            "featured_collections_aspect_ratio": "4 / 5",
+            "featured_collections_aspect_ratio": "1 / 1",
             "image_border_radius": 0,
             "navigation_bar": false,
             "drawer_accordion": false,

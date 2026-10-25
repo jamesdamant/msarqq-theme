@@ -11,42 +11,39 @@
     "hero_jVaWmY": {
       "type": "hero",
       "blocks": {
-        "text_YLPk4p": {
+        "hero_heading": {
           "type": "text",
-          "name": "t:names.heading",
           "settings": {
-            "text": "<p>Browse our latest products</p>",
-            "text_color": "{{ settings.color_palette.background }}",
-            "width": "fit-content",
-            "max_width": "normal",
+            "text": "<h1>Designed in London. Made for the walk.</h1>",
+            "type_preset": "h1",
+            "width": "100%",
+            "max_width": "narrow",
             "alignment": "left",
-            "type_preset": "h2",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "text_color": "{{ settings.color_palette.background }}"
           },
           "blocks": {}
         },
-        "button_H9gpTf": {
-          "type": "button",
-          "name": "t:names.button",
+        "hero_subheading": {
+          "type": "text",
           "settings": {
-            "label": "Shop all",
-            "link": "shopify://collections/all",
+            "text": "<p>Soft rope, solid brass and colours borrowed from the city. Leads and collars for dogs with impeccable taste.</p>",
+            "type_preset": "paragraph",
+            "width": "100%",
+            "max_width": "narrow",
+            "alignment": "left",
+            "text_color": "{{ settings.color_palette.background }}"
+          },
+          "blocks": {}
+        },
+        "hero_button": {
+          "type": "button",
+          "settings": {
+            "label": "Shop the Collection",
+            "link": "/collections/rope-collection",
             "open_in_new_tab": false,
             "style_class": "button-custom",
-            "custom_button_background": "rgba(0,0,0,0)",
-            "custom_button_text": "{{ settings.color_palette.background }}",
+            "custom_button_background": "{{ settings.color_palette.background }}",
+            "custom_button_text": "{{ settings.color_palette.color1 }}",
             "custom_button_border": "{{ settings.color_palette.background }}",
             "width": "fit-content",
             "custom_width": 100,
@@ -57,8 +54,9 @@
         }
       },
       "block_order": [
-        "text_YLPk4p",
-        "button_H9gpTf"
+        "hero_heading",
+        "hero_subheading",
+        "hero_button"
       ],
       "name": "t:names.hero",
       "settings": {
@@ -71,20 +69,20 @@
         "open_in_new_tab": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
-        "horizontal_alignment": "space-between",
+        "horizontal_alignment": "flex-start",
         "vertical_alignment": "flex-end",
         "align_baseline": true,
-        "horizontal_alignment_flex_direction_column": "center",
+        "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "flex-end",
-        "gap": 24,
-        "section_width": "page-width",
-        "section_height": "medium",
+        "gap": 20,
+        "section_width": "full-width",
+        "section_height": "large",
         "section_height_custom": 50,
-        "background_color": "rgba(0,0,0,0)",
+        "background_color": "{{ settings.color_palette.color1 }}",
         "toggle_overlay": true,
-        "overlay_color": "#12121266",
-        "overlay_style": "solid",
-        "gradient_direction": "to bottom",
+        "overlay_color": "#1F3A2E80",
+        "overlay_style": "gradient",
+        "gradient_direction": "to top",
         "blurred_reflection": false,
         "reflection_opacity": 75,
         "padding-block-start": 100,
@@ -134,8 +132,8 @@
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
+                "type_preset": "h2",
+                "font": "var(--font-heading--family)",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -190,7 +188,7 @@
               "type": "_product-card-gallery",
               "name": "t:names.product_card_media",
               "settings": {
-                "image_ratio": "adapt",
+                "image_ratio": "portrait",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
@@ -209,7 +207,7 @@
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "rte",
+                "type_preset": "h5",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -259,13 +257,13 @@
       "name": "t:names.product_list",
       "settings": {
         "collection": "all",
-        "layout_type": "grid",
-        "carousel_on_mobile": false,
+        "layout_type": "carousel",
+        "carousel_on_mobile": true,
         "max_products": 8,
         "columns": 4,
         "mobile_columns": "2",
         "mobile_card_size": "60cqw",
-        "columns_gap": 8,
+        "columns_gap": 12,
         "rows_gap": 24,
         "icons_style": "arrow",
         "icons_shape": "none",
@@ -276,10 +274,500 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "features": {
+      "type": "section",
+      "name": "t:names.icons_with_text",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "gap": 32,
+        "section_width": "page-width",
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 64,
+        "padding-block-end": 64
+      },
+      "blocks": {
+        "feature_materials": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "height": "fit"
+          },
+          "blocks": {
+            "feature_materials_icon": {
+              "type": "icon",
+              "settings": {
+                "icon": "leather",
+                "width": 32,
+                "link": "",
+                "icon_color": "{{ settings.color_palette.color3 }}"
+              },
+              "blocks": {}
+            },
+            "feature_materials_copy": {
+              "type": "group",
+              "settings": {
+                "gap": 4
+              },
+              "blocks": {
+                "feature_materials_heading": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Heritage materials.</h3>",
+                    "type_preset": "h4",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center"
+                  },
+                  "blocks": {}
+                },
+                "feature_materials_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Hand-finished rope and solid brass hardware that only gets better with age.</p>",
+                    "type_preset": "rte",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "feature_materials_heading",
+                "feature_materials_text"
+              ]
+            }
+          },
+          "block_order": [
+            "feature_materials_icon",
+            "feature_materials_copy"
+          ]
+        },
+        "feature_london": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "height": "fit"
+          },
+          "blocks": {
+            "feature_london_icon": {
+              "type": "icon",
+              "settings": {
+                "icon": "map_pin",
+                "width": 32,
+                "link": "",
+                "icon_color": "{{ settings.color_palette.color3 }}"
+              },
+              "blocks": {}
+            },
+            "feature_london_copy": {
+              "type": "group",
+              "settings": {
+                "gap": 4
+              },
+              "blocks": {
+                "feature_london_heading": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Named after London.</h3>",
+                    "type_preset": "h4",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center"
+                  },
+                  "blocks": {}
+                },
+                "feature_london_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>From Chelsea Blush to Thames Grey, every colour is a corner of the city.</p>",
+                    "type_preset": "rte",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "feature_london_heading",
+                "feature_london_text"
+              ]
+            }
+          },
+          "block_order": [
+            "feature_london_icon",
+            "feature_london_copy"
+          ]
+        },
+        "feature_everyday": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "height": "fit"
+          },
+          "blocks": {
+            "feature_everyday_icon": {
+              "type": "icon",
+              "settings": {
+                "icon": "paw_print",
+                "width": 32,
+                "link": "",
+                "icon_color": "{{ settings.color_palette.color3 }}"
+              },
+              "blocks": {}
+            },
+            "feature_everyday_copy": {
+              "type": "group",
+              "settings": {
+                "gap": 4
+              },
+              "blocks": {
+                "feature_everyday_heading": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Built for every day.</h3>",
+                    "type_preset": "h4",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center"
+                  },
+                  "blocks": {}
+                },
+                "feature_everyday_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Strong enough for the park, smart enough for the pub.</p>",
+                    "type_preset": "rte",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "feature_everyday_heading",
+                "feature_everyday_text"
+              ]
+            }
+          },
+          "block_order": [
+            "feature_everyday_icon",
+            "feature_everyday_copy"
+          ]
+        }
+      },
+      "block_order": [
+        "feature_materials",
+        "feature_london",
+        "feature_everyday"
+      ]
+    },
+    "shop_by_colour": {
+      "type": "collection-list",
+      "name": "t:names.collections_grid",
+      "blocks": {
+        "colour_header": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "gap": 8,
+            "width": "fill",
+            "height": "fit"
+          },
+          "blocks": {
+            "colour_eyebrow": {
+              "type": "text",
+              "settings": {
+                "text": "<p>The Rope Collection</p>",
+                "type_preset": "h6",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left"
+              },
+              "blocks": {}
+            },
+            "colour_heading": {
+              "type": "text",
+              "settings": {
+                "text": "<h2>Shop by colour</h2>",
+                "type_preset": "h2",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "padding-block-end": 16
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "colour_eyebrow",
+            "colour_heading"
+          ]
+        },
+        "static-collection-card": {
+          "type": "_collection-card",
+          "static": true,
+          "settings": {
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-end",
+            "placement": "on_image",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 2
+          },
+          "blocks": {
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "static": true,
+              "settings": {
+                "image_ratio": "portrait"
+              },
+              "blocks": {}
+            },
+            "collection-title": {
+              "type": "collection-title",
+              "settings": {
+                "type_preset": "h4",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "background": true,
+                "background_color": "{{ settings.color_palette.background }}",
+                "padding-block-start": 6,
+                "padding-block-end": 6,
+                "padding-inline-start": 12,
+                "padding-inline-end": 12
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "collection-title"
+          ]
+        }
+      },
+      "block_order": [
+        "colour_header"
+      ],
+      "settings": {
+        "collection_list": [],
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "columns": 4,
+        "mobile_columns": "2",
+        "columns_gap": 12,
+        "rows_gap": 12,
+        "max_collections": 4,
+        "section_width": "page-width",
+        "gap": 12,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "matching_set": {
+      "type": "section",
+      "name": "t:names.image_with_text",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "gap": 48,
+        "section_width": "page-width",
+        "background_color": "{{ settings.color_palette.color4 }}",
+        "padding-block-start": 64,
+        "padding-block-end": 64
+      },
+      "blocks": {
+        "set_image": {
+          "type": "image",
+          "settings": {
+            "image": "",
+            "image_ratio": "square"
+          },
+          "blocks": {}
+        },
+        "set_copy": {
+          "type": "group",
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "width": "custom"
+          },
+          "blocks": {
+            "set_heading": {
+              "type": "text",
+              "settings": {
+                "text": "<h2>The Matching Set</h2>",
+                "type_preset": "h2",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left"
+              },
+              "blocks": {}
+            },
+            "set_text": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Lead, collar and walking bag in one colour, beautifully boxed. The easiest gift you'll ever give.</p>",
+                "type_preset": "rte",
+                "width": "100%",
+                "max_width": "narrow",
+                "alignment": "left"
+              },
+              "blocks": {}
+            },
+            "set_button": {
+              "type": "button",
+              "settings": {
+                "label": "Shop Sets",
+                "link": "/collections/sets",
+                "style_class": "button",
+                "open_in_new_tab": false,
+                "width": "fit-content",
+                "width_mobile": "fit-content"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "set_heading",
+            "set_text",
+            "set_button"
+          ]
+        }
+      },
+      "block_order": [
+        "set_image",
+        "set_copy"
+      ]
+    },
+    "london_marquee": {
+      "type": "marquee",
+      "name": "t:names.marquee_section",
+      "blocks": {
+        "marquee_places": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chelsea · Portland · Thames · Hyde Park · Marylebone · Mayfair</p>",
+            "type_preset": "custom",
+            "font": "var(--font-heading--family)",
+            "font_size": "2rem",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        },
+        "marquee_icon": {
+          "type": "icon",
+          "settings": {
+            "icon": "paw_print",
+            "width": 24,
+            "link": "",
+            "icon_color": "{{ settings.color_palette.color3 }}"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "marquee_places",
+        "marquee_icon"
+      ],
+      "settings": {
+        "movement_direction": "normal",
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 32
+      }
+    },
+    "story_teaser": {
+      "type": "section",
+      "name": "t:names.pull_quote",
+      "settings": {
+        "horizontal_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 80,
+        "padding-block-end": 80
+      },
+      "blocks": {
+        "story_quote": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“London is a city of walkers, and its dogs know it.”</p>",
+            "type_preset": "h3",
+            "width": "100%",
+            "max_width": "narrow",
+            "alignment": "center"
+          },
+          "blocks": {}
+        },
+        "story_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From the cobbled mews of Kensington to the towpaths of Regent's Canal, the walk is where the city slows down.</p>",
+            "type_preset": "rte",
+            "width": "100%",
+            "max_width": "narrow",
+            "alignment": "center"
+          },
+          "blocks": {}
+        },
+        "story_button": {
+          "type": "button",
+          "settings": {
+            "label": "Read our story",
+            "link": "/pages/our-story",
+            "style_class": "button-secondary",
+            "open_in_new_tab": false,
+            "width": "fit-content",
+            "width_mobile": "fit-content"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "story_quote",
+        "story_text",
+        "story_button"
+      ]
     }
   },
   "order": [
     "hero_jVaWmY",
-    "product_list_fa6P9H"
+    "features",
+    "shop_by_colour",
+    "product_list_fa6P9H",
+    "matching_set",
+    "london_marquee",
+    "story_teaser"
   ]
 }
