@@ -7,6 +7,17 @@ Read `AGENTS.md` before any theme change — it defines the architecture contrac
 - `.claude/skills/ecommerce-copy.md` — use whenever producing or reviewing customer-facing product/storefront text.
 - `.claude/skills/ecommerce-ux.md` — use when building or editing templates, sections, or blocks affecting shopper experience.
 
+## Reference repo (pattern source)
+
+`/opt/data/aero-adventures` is James's previous store for a drone brand, built on the same Horizon 4.3.0 base. When a task matches something done there, read the corresponding file there first and follow the same pattern (adapt, don't copy blindly — respect THIS theme's settings and IDs):
+
+- `sections/review-scroller.liquid` + its blocks — continuous review strip, stars, pause-on-hover
+- `templates/product.json` — PDP section order with the BUY BOX ABOVE the product story (James's explicit preference)
+- `templates/page.faq.json` — FAQ page pattern
+- `snippets/cart-pair-offer.liquid` — "Add another, save 10%" cart upsell prompt
+- Rating stars filled/colored per his commit history
+
+
 ## Working mode (agent orchestration)
 
 You are usually invoked non-interactively by an orchestrating agent. Follow these rules to keep runs cheap and predictable:
