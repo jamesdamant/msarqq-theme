@@ -38,7 +38,7 @@ The rule is the same as aero: everything needed to buy sits in `main` → `produ
 
 ```
 group_icgrde                 (title group)
-  eyebrow_pdp                NEW  e.g. "Ages X+ · Crash-proof cage" (facts TBC)
+  eyebrow_pdp                NEW  e.g. "Ages X+ · Crash-resistant cage" (facts TBC)
   text_xrnftG                KEEP <h1>{{ closest.product.title }}</h1>
   price_tVjtKg               KEEP (consider show_tax_info: true, see §4)
   rating_line                NEW, ONLY once real reviews exist (see §5)
@@ -64,7 +64,7 @@ Keep `enable_sticky_add_to_cart: true` (already on). That covers the mobile stic
 ```
 main                              buy box (above)
 reviews                           review-scroller, anchor_id "reviews" (§3)
-marquee                           short proof chips: "Crash-proof cage", "Ages X+", "Blue or red"
+marquee                           short proof chips: "Crash-resistant cage", "Ages X+", "Blue or red"
 how_it_works                      3 steps: charge, power on, take off
 features                          4 icon cards: cage, safety, controls, battery
 guarantees                        4 trust tiles, same claims as trust_badges
@@ -140,3 +140,17 @@ Because most of the PDP claims are typed in, any change to shipping or returns h
 8. **Performance.** Seven sections plus a marquee and an animated scroller. Keep below-fold images lazy, and keep only the first gallery image eager. Check CLS and LCP on mobile at 360 px after the restructure.
 9. **Aero's wording carrying over.** Planes, squadron and control-tower copy would look careless on a kids' drone listing. Do a full strings pass with the copy skill's anti-AI checklist.
 10. **The template is shared by all products.** There's one `templates/product.json`, so K26-specific copy there applies to every product. Either create `templates/product.k26.json` and assign it to K26 only, or keep product-specific text in metafields. **Recommendation: `product.k26.json`**, copied from the restructured default with the same block IDs.
+
+---
+
+## Addendum — Nov 13 PDP conversion + trust audit (Claude Code, checklist item 7)
+
+The full audit now lives at `/opt/data/product-intake/soccer-drone/pdp_audit.md` (152 lines; read it before doing any §2 work — it supersedes some detail here, notably: no marquee, no `rating_line`/stars at zero reviews, `#13` gallery shot to slot 2, gallery as carousel not grid). Copy fixes from its §9 have already been applied to the brand copy and the Shopify CSV ("crash-proof" → "crash-resistant" everywhere, absolute claims cut, no "to be confirmed" on the live page).
+
+Three theme-code findings from the audit to fold into the §2 restructure (none applied — code changes need visual verification):
+
+1. **Sticky mobile ATC has no accessible name.** Under 750 px the CSS hides the button text (`sections/product-information.liquid` ~L311) and the button (~L124) has no `aria-label`, so screen readers get an unnamed button. Add `aria-label="Add to cart"` when adding the fix.
+2. **Empty `disclosures_g9mWze` block** (`templates/product.json:14`) renders a bare heading under the gallery. Fill it (materials/safety note once compliance is evidenced) or remove it in the restructure.
+3. **Price renders at paragraph size** (`price_tVjtKg.type_preset: "paragraph"`). Use `h4` as aero does so the eye finds it.
+
+Launch blockers found (page-level, not theme): stock = 0 in the CSV would render "Sold out" and hide the sticky bar; CE/UKCA + age rating are legal requirements before publishing; `Variant Grams` is empty so weight-based shipping rates will break.
