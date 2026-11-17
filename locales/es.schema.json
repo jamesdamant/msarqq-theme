@@ -9,6 +9,8 @@
  */
 {
   "names": {
+    "review": "Review",
+    "review_scroller": "Review scroller",
     "404": "404",
     "colors": "Paleta de colores",
     "custom_section": "Sección personalizada",
@@ -171,6 +173,14 @@
     "disclosures": "Divulgaciones"
   },
   "settings": {
+    "anchor_id": "Anchor ID",
+    "author": "Name",
+    "card_background": "Card background",
+    "rating": "Rating",
+    "seconds_per_review": "Seconds per review",
+    "star_color": "Star color",
+    "show_rating_summary": "Show rating summary",
+    "verified_buyer": "Verified buyer",
     "alignment": "Alineación",
     "autoplay": "Reproducción automática",
     "background": "Fondo",
@@ -1054,6 +1064,7 @@
     "shop_collection": "<p>Descubre nuestra colección seleccionada con favoritos seleccionados a mano que combinan estilo y calidad.</p>"
   },
   "text_defaults": {
+    "review_scroller_heading": "What customers are saying",
     "button_label": "Comprar ahora",
     "collapsible_row": "Fila plegable",
     "heading": "Título",
@@ -1092,6 +1103,9 @@
     "disclosures": "Divulgaciones"
   },
   "info": {
+    "anchor_id": "Buttons can link here with #your-id, for example #reviews",
+    "show_rating_summary": "Shows the average rating and review count from your reviews app. Hidden until the product has ratings.",
+    "review_verified_buyer": "Only tick this for a review from a confirmed purchase.",
     "carousel_layout_on_mobile": "En dispositivos móviles siempre se usa el carrusel",
     "video_alt_text": "Describe el video para personas usuarias de tecnologías de asistencia",
     "video_autoplay": "Los videos estarán silenciados de forma predeterminada",

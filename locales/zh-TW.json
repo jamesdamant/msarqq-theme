@@ -29,6 +29,10 @@
     "slider_label": "投影播放器"
   },
   "accessibility": {
+    "customer_reviews": "Customer reviews",
+    "pause_reviews": "Pause scrolling reviews",
+    "review_photo": "Photo from {{ author }}",
+    "review_rating": "Rated {{ rating }} out of 5",
     "play_model": "播放 3D 模型",
     "play_video": "播放影片",
     "unit_price": "單價",
@@ -130,6 +134,12 @@
     "back_to_main_menu": "返回主選單"
   },
   "content": {
+    "verified_buyer": "Verified buyer",
+    "review_scroller_summary": {
+      "one": "{{ rating }} out of {{ scale_max }} · {{ count }} review",
+      "other": "{{ rating }} out of {{ scale_max }} · {{ count }} reviews"
+    },
+    "review_scroller_empty": "Add a Review block for each real customer review. This section stays hidden on your store until it has at least one.",
     "reviews": "評論數",
     "no_results_found": "找不到結果",
     "language": "語言",

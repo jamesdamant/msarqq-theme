@@ -29,6 +29,10 @@
     "slider_label": "Jazdec"
   },
   "accessibility": {
+    "customer_reviews": "Customer reviews",
+    "pause_reviews": "Pause scrolling reviews",
+    "review_photo": "Photo from {{ author }}",
+    "review_rating": "Rated {{ rating }} out of 5",
     "play_model": "Prehrať 3D model",
     "play_video": "Prehrať video",
     "unit_price": "Jednotková cena",
@@ -134,6 +138,12 @@
     "back_to_main_menu": "Späť do hlavnej ponuky"
   },
   "content": {
+    "verified_buyer": "Verified buyer",
+    "review_scroller_summary": {
+      "one": "{{ rating }} out of {{ scale_max }} · {{ count }} review",
+      "other": "{{ rating }} out of {{ scale_max }} · {{ count }} reviews"
+    },
+    "review_scroller_empty": "Add a Review block for each real customer review. This section stays hidden on your store until it has at least one.",
     "reviews": "recenz.",
     "no_results_found": "Nenašli sa žiadne výsledky",
     "language": "Jazyk",

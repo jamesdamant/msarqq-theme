@@ -59,6 +59,10 @@
     "slideshow_next": "Next slide",
     "slideshow_pause": "Pause slideshow",
     "slideshow_play": "Play slideshow",
+    "customer_reviews": "Customer reviews",
+    "pause_reviews": "Pause scrolling reviews",
+    "review_photo": "Photo from {{ author }}",
+    "review_rating": "Rated {{ rating }} out of 5",
     "slideshow_previous": "Previous slide",
     "unit_price": "Unit price",
     "find_country": "Find country",
@@ -251,6 +255,12 @@
     "remove_all_items_confirmation": "Remove all {{ count }} items from your cart?",
     "remove_one_item_confirmation": "Remove 1 item from your cart?",
     "reviews": "reviews",
+    "verified_buyer": "Verified buyer",
+    "review_scroller_summary": {
+      "one": "{{ rating }} out of {{ scale_max }} · {{ count }} review",
+      "other": "{{ rating }} out of {{ scale_max }} · {{ count }} reviews"
+    },
+    "review_scroller_empty": "Add a Review block for each real customer review. This section stays hidden on your store until it has at least one.",
     "read_more": "Read more...",
     "search_input_label": "Search",
     "search_input_placeholder": "Search",

@@ -154,3 +154,18 @@ Three theme-code findings from the audit to fold into the §2 restructure (none 
 3. **Price renders at paragraph size** (`price_tVjtKg.type_preset: "paragraph"`). Use `h4` as aero does so the eye finds it.
 
 Launch blockers found (page-level, not theme): stock = 0 in the CSV would render "Sold out" and hide the sticky bar; CE/UKCA + age rating are legal requirements before publishing; `Variant Grams` is empty so weight-based shipping rates will break.
+
+---
+
+## Addendum — Nov 17 build: cart pair offer NOT ported (wiring differs)
+
+`snippets/cart-pair-offer.liquid` was left out of the K26 build on purpose. It does not drop in on its own. It needs four changes outside a new file, and the build brief ruled out three of them:
+
+1. **`config/settings_schema.json`**: the snippet reads `settings.cart_pair_offer` and `settings.cart_pair_offer_percent` (snippet L13, L17). Without them it never renders. This file was off-limits for the build.
+2. **`snippets/cart-products.liquid`** (shared): two render calls, `styles_only: true` in the empty-cart branch (after the continue-shopping link, ~L74) and the main render after the line-items `</table>` (~L424). This theme's file is byte-identical to aero's baseline, so the aero diff applies cleanly when it's approved.
+3. **`assets/component-cart-items.js`** (shared): the button calls `on:click="/onPairOfferAdd?..."`. That handler only exists in aero's copy (14-line `onPairOfferAdd` method that wraps `updateQuantity` and restores focus). Without it the button does nothing.
+4. Locale keys `actions.add_another`, `content.cart_pair_offer_title|body|saving_html`, `settings.cart_pair_offer*`, `info.cart_pair_offer` (stripped from this build's locale port so no orphan keys ship).
+
+Also still open from the audit (§7c): aero's snippet adds another unit of the **same line**. For K26, someone with Blue should be offered Red. That needs a variant of the snippet that posts the other variant ID through the cart add API, not just a port.
+
+When James approves: apply aero commit `43ee062` for items 1–4 (it also sets `cart_pair_offer` in `settings_data.json`, so leave that line out until the discount exists), take the final snippet from aero HEAD (`de8fd12` fixed the offer fade), then adapt for cross-colour. Create the automatic discount first, and keep the percentage the same in the setting, the discount, and the (currently hidden) `buy_two_promo` block in `templates/product.k26.json`.

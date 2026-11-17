@@ -9,6 +9,8 @@
  */
 {
   "names": {
+    "review": "Review",
+    "review_scroller": "Review scroller",
     "404": "404",
     "custom_section": "Özel bölüm",
     "icon": "Simge",
@@ -171,6 +173,14 @@
     "disclosures": "Bildirimler"
   },
   "settings": {
+    "anchor_id": "Anchor ID",
+    "author": "Name",
+    "card_background": "Card background",
+    "rating": "Rating",
+    "seconds_per_review": "Seconds per review",
+    "star_color": "Star color",
+    "show_rating_summary": "Show rating summary",
+    "verified_buyer": "Verified buyer",
     "autoplay": "Otomatik oynatma",
     "background": "Arka plan",
     "border_radius": "Köşe yarıçapı",
@@ -1054,6 +1064,7 @@
     "introducing_p": "<p><em>Karşınızda</em></p>"
   },
   "text_defaults": {
+    "review_scroller_heading": "What customers are saying",
     "collapsible_row": "Daraltılabilir satır",
     "button_label": "Hemen alışveriş yap",
     "heading": "Başlık",
@@ -1092,6 +1103,9 @@
     "disclosures": "Bildirimler"
   },
   "info": {
+    "anchor_id": "Buttons can link here with #your-id, for example #reviews",
+    "show_rating_summary": "Shows the average rating and review count from your reviews app. Hidden until the product has ratings.",
+    "review_verified_buyer": "Only tick this for a review from a confirmed purchase.",
     "video_alt_text": "Yardımcı teknoloji kullanıcıları için videoyu açıklayın",
     "video_autoplay": "Videolar varsayılan olarak sessize alınır",
     "video_external": "Bir YouTube veya Vimeo URL'si kullanın",

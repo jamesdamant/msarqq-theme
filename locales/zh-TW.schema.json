@@ -9,6 +9,8 @@
  */
 {
   "names": {
+    "review": "Review",
+    "review_scroller": "Review scroller",
     "404": "404",
     "colors": "調色盤",
     "custom_section": "自訂區段",
@@ -171,6 +173,14 @@
     "disclosures": "資訊揭露"
   },
   "settings": {
+    "anchor_id": "Anchor ID",
+    "author": "Name",
+    "card_background": "Card background",
+    "rating": "Rating",
+    "seconds_per_review": "Seconds per review",
+    "star_color": "Star color",
+    "show_rating_summary": "Show rating summary",
+    "verified_buyer": "Verified buyer",
     "alignment": "對齊",
     "autoplay": "自動播放",
     "background": "背景",
@@ -1054,6 +1064,7 @@
     "introducing_p": "<p><em>全新推出</em></p>"
   },
   "text_defaults": {
+    "review_scroller_heading": "What customers are saying",
     "button_label": "立即選購",
     "collapsible_row": "可摺疊列",
     "heading": "標題",
@@ -1092,6 +1103,9 @@
     "disclosures": "資訊揭露"
   },
   "info": {
+    "anchor_id": "Buttons can link here with #your-id, for example #reviews",
+    "show_rating_summary": "Shows the average rating and review count from your reviews app. Hidden until the product has ratings.",
+    "review_verified_buyer": "Only tick this for a review from a confirmed purchase.",
     "carousel_layout_on_mobile": "在行動裝置上一律使用輪播",
     "video_alt_text": "為使用輔助技術的使用者描述影片",
     "video_autoplay": "影片預設為靜音播放",

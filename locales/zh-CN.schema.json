@@ -9,6 +9,8 @@
  */
 {
   "names": {
+    "review": "Review",
+    "review_scroller": "Review scroller",
     "404": "404",
     "colors": "调色板",
     "custom_section": "自定义分区",
@@ -171,6 +173,14 @@
     "disclosures": "披露信息"
   },
   "settings": {
+    "anchor_id": "Anchor ID",
+    "author": "Name",
+    "card_background": "Card background",
+    "rating": "Rating",
+    "seconds_per_review": "Seconds per review",
+    "star_color": "Star color",
+    "show_rating_summary": "Show rating summary",
+    "verified_buyer": "Verified buyer",
     "alignment": "对齐方式",
     "autoplay": "自动播放",
     "background": "背景",
@@ -1054,6 +1064,7 @@
     "featured_collection_h3": "<h3>特色系列</h3>"
   },
   "text_defaults": {
+    "review_scroller_heading": "What customers are saying",
     "button_label": "立即购买",
     "collapsible_row": "可折叠行",
     "heading": "标题",
@@ -1092,6 +1103,9 @@
     "disclosures": "披露信息"
   },
   "info": {
+    "anchor_id": "Buttons can link here with #your-id, for example #reviews",
+    "show_rating_summary": "Shows the average rating and review count from your reviews app. Hidden until the product has ratings.",
+    "review_verified_buyer": "Only tick this for a review from a confirmed purchase.",
     "video_alt_text": "为使用辅助技术的用户描述视频",
     "video_autoplay": "视频将默认静音",
     "video_external": "使用 YouTube 或 Vimeo URL",

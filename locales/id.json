@@ -29,6 +29,10 @@
     "slider_label": "Slider"
   },
   "accessibility": {
+    "customer_reviews": "Customer reviews",
+    "pause_reviews": "Pause scrolling reviews",
+    "review_photo": "Photo from {{ author }}",
+    "review_rating": "Rated {{ rating }} out of 5",
     "play_model": "Putar model 3D",
     "play_video": "Putar video",
     "unit_price": "Harga satuan",
@@ -130,6 +134,12 @@
     "zoom_media": "Perbesar media {{ index }}"
   },
   "content": {
+    "verified_buyer": "Verified buyer",
+    "review_scroller_summary": {
+      "one": "{{ rating }} out of {{ scale_max }} · {{ count }} review",
+      "other": "{{ rating }} out of {{ scale_max }} · {{ count }} reviews"
+    },
+    "review_scroller_empty": "Add a Review block for each real customer review. This section stays hidden on your store until it has at least one.",
     "reviews": "ulasan",
     "language": "Bahasa",
     "localization_region_and_language": "Wilayah dan bahasa",

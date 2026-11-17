@@ -1,0 +1,938 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "name": "FAQ header",
+      "settings": {
+        "content_direction": "column",
+        "gap": 16,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 80,
+        "padding-block-end": 24
+      },
+      "blocks": {
+        "eyebrow": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Help</p>",
+            "width": "100%",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "0.75rem",
+            "case": "uppercase",
+            "letter_spacing": "loose",
+            "alignment": "center"
+          },
+          "blocks": {}
+        },
+        "heading": {
+          "type": "text",
+          "name": "t:names.title",
+          "settings": {
+            "text": "<h1>{{ closest.page.title }}</h1>",
+            "type_preset": "h1",
+            "alignment": "center",
+            "width": "100%",
+            "wrap": "balance"
+          },
+          "blocks": {}
+        },
+        "intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Answers to the questions parents ask most about the KickFlight K26. Can’t find yours? Send us a message.</p>",
+            "width": "100%",
+            "type_preset": "rte",
+            "alignment": "center",
+            "max_width": "narrow"
+          },
+          "blocks": {}
+        },
+        "page-content": {
+          "type": "page-content",
+          "settings": {},
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "eyebrow",
+        "heading",
+        "intro",
+        "page-content"
+      ]
+    },
+    "faq_list": {
+      "type": "section",
+      "name": "FAQ questions",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "center",
+        "gap": 56,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 32,
+        "padding-block-end": 100
+      },
+      "blocks": {
+        "faq_group_01": {
+          "type": "group",
+          "name": "Flying",
+          "settings": {
+            "gap": 16,
+            "width": "custom",
+            "custom_width": 70,
+            "width_mobile": "fill"
+          },
+          "blocks": {
+            "faq_group_title_02": {
+              "type": "text",
+              "settings": {
+                "text": "<h2>Flying</h2>",
+                "width": "100%",
+                "type_preset": "h4"
+              },
+              "blocks": {}
+            },
+            "faq_accordion_03": {
+              "type": "accordion",
+              "settings": {
+                "icon": "plus",
+                "type_preset": "h5",
+                "divider_color": "{{ settings.color_palette.foreground }}"
+              },
+              "blocks": {
+                "faq_row_hard": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Is it hard to fly?"
+                  },
+                  "blocks": {
+                    "faq_answer_hard": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>No. One button takes off and one lands, and altitude hold keeps it at a steady height, so a beginner only has to steer. You can also start a flight by tossing it from your hand.</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_hard"
+                  ]
+                },
+                "faq_row_crash": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What happens if it crashes?"
+                  },
+                  "blocks": {
+                    "faq_answer_crash": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>The propellers sit inside a 12.5 cm football-shaped cage, so walls, fences and the ground hit the cage instead of the props. Four spare propellers come in the box in case one gets bent.</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_crash"
+                  ]
+                },
+                "faq_row_two": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Can two fly at the same time?"
+                  },
+                  "blocks": {
+                    "faq_answer_two": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Yes. The remote runs on 2.4 GHz, so two K26s can fly side by side. Pick one blue and one red and you can tell them apart in the air.</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_two"
+                  ]
+                },
+                "faq_row_tricks": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Can it do tricks?"
+                  },
+                  "blocks": {
+                    "faq_answer_tricks": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Yes. A dedicated button flips it through a full 360° roll.</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_tricks"
+                  ]
+                },
+                "faq_row_age": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What age is it suitable for?"
+                  },
+                  "blocks": {
+                    "faq_answer_age": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>[JAMES TO SUPPLY: verified age rating from the CE/UKCA documentation]</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_age"
+                  ],
+                  "disabled": true
+                },
+                "faq_row_indoors": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Can it fly indoors?"
+                  },
+                  "blocks": {
+                    "faq_answer_indoors": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>[JAMES TO SUPPLY: confirmed indoor/outdoor guidance and minimum room size]</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_indoors"
+                  ],
+                  "disabled": true
+                }
+              },
+              "block_order": [
+                "faq_row_hard",
+                "faq_row_crash",
+                "faq_row_two",
+                "faq_row_tricks",
+                "faq_row_age",
+                "faq_row_indoors"
+              ]
+            }
+          },
+          "block_order": [
+            "faq_group_title_02",
+            "faq_accordion_03"
+          ]
+        },
+        "faq_group_18": {
+          "type": "group",
+          "name": "Batteries & charging",
+          "settings": {
+            "gap": 16,
+            "width": "custom",
+            "custom_width": 70,
+            "width_mobile": "fill"
+          },
+          "blocks": {
+            "faq_group_title_19": {
+              "type": "text",
+              "settings": {
+                "text": "<h2>Batteries & charging</h2>",
+                "width": "100%",
+                "type_preset": "h4"
+              },
+              "blocks": {}
+            },
+            "faq_accordion_20": {
+              "type": "accordion",
+              "settings": {
+                "icon": "plus",
+                "type_preset": "h5",
+                "divider_color": "{{ settings.color_palette.foreground }}"
+              },
+              "blocks": {
+                "faq_row_flight": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "How long does a flight last?"
+                  },
+                  "blocks": {
+                    "faq_answer_flight": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>The manufacturer states up to 30 minutes of flight time.</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_flight"
+                  ]
+                },
+                "faq_row_charge": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "How do I charge it?"
+                  },
+                  "blocks": {
+                    "faq_answer_charge": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>The battery clips out of the drone and charges over USB with the cable in the box.</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_charge"
+                  ]
+                },
+                "faq_row_remote": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What batteries does the remote need?"
+                  },
+                  "blocks": {
+                    "faq_answer_remote": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>[JAMES TO SUPPLY: remote battery type and count, and whether they are included]</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_remote"
+                  ],
+                  "disabled": true
+                }
+              },
+              "block_order": [
+                "faq_row_flight",
+                "faq_row_charge",
+                "faq_row_remote"
+              ]
+            }
+          },
+          "block_order": [
+            "faq_group_title_19",
+            "faq_accordion_20"
+          ]
+        },
+        "faq_group_27": {
+          "type": "group",
+          "name": "Orders & delivery",
+          "settings": {
+            "gap": 16,
+            "width": "custom",
+            "custom_width": 70,
+            "width_mobile": "fill"
+          },
+          "blocks": {
+            "faq_group_title_28": {
+              "type": "text",
+              "settings": {
+                "text": "<h2>Orders & delivery</h2>",
+                "width": "100%",
+                "type_preset": "h4"
+              },
+              "blocks": {}
+            },
+            "faq_accordion_29": {
+              "type": "accordion",
+              "settings": {
+                "icon": "plus",
+                "type_preset": "h5",
+                "divider_color": "{{ settings.color_palette.foreground }}"
+              },
+              "blocks": {
+                "faq_row_arrive": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "When will my order arrive?"
+                  },
+                  "blocks": {
+                    "faq_answer_arrive": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>[JAMES TO SUPPLY: dispatch window and typical UK delivery time]</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_arrive"
+                  ],
+                  "disabled": true
+                },
+                "faq_row_cost": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "How much is delivery?"
+                  },
+                  "blocks": {
+                    "faq_answer_cost": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Delivery options and costs are shown at checkout before you pay. Full details are in our <a href=\"/policies/shipping-policy\" title=\"Shipping policy\">shipping policy</a>.</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_cost"
+                  ]
+                },
+                "faq_row_track": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Can I track my order?"
+                  },
+                  "blocks": {
+                    "faq_answer_track": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>[JAMES TO SUPPLY: whether every order is tracked and how the tracking link is sent]</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_track"
+                  ],
+                  "disabled": true
+                }
+              },
+              "block_order": [
+                "faq_row_arrive",
+                "faq_row_cost",
+                "faq_row_track"
+              ]
+            }
+          },
+          "block_order": [
+            "faq_group_title_28",
+            "faq_accordion_29"
+          ]
+        },
+        "faq_group_36": {
+          "type": "group",
+          "name": "Returns & support",
+          "settings": {
+            "gap": 16,
+            "width": "custom",
+            "custom_width": 70,
+            "width_mobile": "fill"
+          },
+          "blocks": {
+            "faq_group_title_37": {
+              "type": "text",
+              "settings": {
+                "text": "<h2>Returns & support</h2>",
+                "width": "100%",
+                "type_preset": "h4"
+              },
+              "blocks": {}
+            },
+            "faq_accordion_38": {
+              "type": "accordion",
+              "settings": {
+                "icon": "plus",
+                "type_preset": "h5",
+                "divider_color": "{{ settings.color_palette.foreground }}"
+              },
+              "blocks": {
+                "faq_row_returns": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What is your returns policy?"
+                  },
+                  "blocks": {
+                    "faq_answer_returns": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Our <a href=\"/policies/refund-policy\" title=\"Refund policy\">refund policy</a> explains how returns work and how to start one.</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_returns"
+                  ]
+                },
+                "faq_row_box": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What’s in the box?"
+                  },
+                  "blocks": {
+                    "faq_answer_box": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<ul><li>1 × KickFlight K26 cage drone (blue or red)</li><li>1 × 2.4 GHz gamepad remote</li><li>1 × Clip-in rechargeable battery</li><li>1 × USB charging cable</li><li>4 × Spare propellers</li><li>1 × Instruction manual (in German)</li></ul>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_box"
+                  ]
+                },
+                "faq_row_contact": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "How do I contact you?"
+                  },
+                  "blocks": {
+                    "faq_answer_contact": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Use our <a href=\"/pages/contact\" title=\"Contact us\">contact page</a> and we’ll get back to you.</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_answer_contact"
+                  ]
+                }
+              },
+              "block_order": [
+                "faq_row_returns",
+                "faq_row_box",
+                "faq_row_contact"
+              ]
+            }
+          },
+          "block_order": [
+            "faq_group_title_37",
+            "faq_accordion_38"
+          ]
+        }
+      },
+      "block_order": [
+        "faq_group_01",
+        "faq_group_18",
+        "faq_group_27",
+        "faq_group_36"
+      ]
+    },
+    "guarantees": {
+      "type": "section",
+      "name": "Guarantees",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "space-between",
+        "vertical_alignment": "center",
+        "gap": 24,
+        "background_color": "{{ settings.color_palette.color2 }}",
+        "padding-block-start": 44,
+        "padding-block-end": 44
+      },
+      "blocks": {
+        "group_068": {
+          "type": "group",
+          "name": "Guarantee",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "gap": 14,
+            "width": "fit-content"
+          },
+          "blocks": {
+            "icon_05u": {
+              "type": "icon",
+              "settings": {
+                "icon": "truck",
+                "width": 28,
+                "icon_color": "{{ settings.color_palette.foreground }}"
+              },
+              "blocks": {}
+            },
+            "group_05v": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 2
+              },
+              "blocks": {
+                "text_05s": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>[JAMES: delivery headline]</strong></p>",
+                    "width": "100%",
+                    "type_preset": "paragraph"
+                  },
+                  "blocks": {}
+                },
+                "text_05t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>[JAMES: delivery detail]</p>",
+                    "width": "100%",
+                    "type_preset": "custom",
+                    "alignment": "left",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "0.75rem",
+                    "letter_spacing": "loose",
+                    "case": "uppercase"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_05s",
+                "text_05t"
+              ]
+            }
+          },
+          "block_order": [
+            "icon_05u",
+            "group_05v"
+          ],
+          "disabled": true
+        },
+        "group_069": {
+          "type": "group",
+          "name": "Guarantee",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "gap": 14,
+            "width": "fit-content"
+          },
+          "blocks": {
+            "icon_05y": {
+              "type": "icon",
+              "settings": {
+                "icon": "return",
+                "width": 28,
+                "icon_color": "{{ settings.color_palette.foreground }}"
+              },
+              "blocks": {}
+            },
+            "group_05z": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 2
+              },
+              "blocks": {
+                "text_05w": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>[JAMES: returns window, 14 days minimum]</strong></p>",
+                    "width": "100%",
+                    "type_preset": "paragraph"
+                  },
+                  "blocks": {}
+                },
+                "text_05x": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>[JAMES: returns detail]</p>",
+                    "width": "100%",
+                    "type_preset": "custom",
+                    "alignment": "left",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "0.75rem",
+                    "letter_spacing": "loose",
+                    "case": "uppercase"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_05w",
+                "text_05x"
+              ]
+            }
+          },
+          "block_order": [
+            "icon_05y",
+            "group_05z"
+          ],
+          "disabled": true
+        },
+        "group_06a": {
+          "type": "group",
+          "name": "Guarantee",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "gap": 14,
+            "width": "fit-content"
+          },
+          "blocks": {
+            "icon_062": {
+              "type": "icon",
+              "settings": {
+                "icon": "check_box",
+                "width": 28,
+                "icon_color": "{{ settings.color_palette.foreground }}"
+              },
+              "blocks": {}
+            },
+            "group_063": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 2
+              },
+              "blocks": {
+                "text_060": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Crash-resistant cage</strong></p>",
+                    "width": "100%",
+                    "type_preset": "paragraph"
+                  },
+                  "blocks": {}
+                },
+                "text_061": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Props sit inside the ball</p>",
+                    "width": "100%",
+                    "type_preset": "custom",
+                    "alignment": "left",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "0.75rem",
+                    "letter_spacing": "loose",
+                    "case": "uppercase"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_060",
+                "text_061"
+              ]
+            }
+          },
+          "block_order": [
+            "icon_062",
+            "group_063"
+          ]
+        },
+        "group_06b": {
+          "type": "group",
+          "name": "Guarantee",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "gap": 14,
+            "width": "fit-content"
+          },
+          "blocks": {
+            "icon_066": {
+              "type": "icon",
+              "settings": {
+                "icon": "lock",
+                "width": 28,
+                "icon_color": "{{ settings.color_palette.foreground }}"
+              },
+              "blocks": {}
+            },
+            "group_067": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 2
+              },
+              "blocks": {
+                "text_064": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Secure checkout</strong></p>",
+                    "width": "100%",
+                    "type_preset": "paragraph"
+                  },
+                  "blocks": {}
+                },
+                "text_065": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Powered by Shopify</p>",
+                    "width": "100%",
+                    "type_preset": "custom",
+                    "alignment": "left",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "0.75rem",
+                    "letter_spacing": "loose",
+                    "case": "uppercase"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_064",
+                "text_065"
+              ]
+            }
+          },
+          "block_order": [
+            "icon_066",
+            "group_067"
+          ]
+        }
+      },
+      "block_order": [
+        "group_068",
+        "group_069",
+        "group_06a",
+        "group_06b"
+      ]
+    },
+    "contact_prompt": {
+      "type": "section",
+      "name": "Contact prompt",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "center",
+        "gap": 20,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 100,
+        "padding-block-end": 100
+      },
+      "blocks": {
+        "contact_eyebrow": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Still have questions?</p>",
+            "width": "100%",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "0.75rem",
+            "case": "uppercase",
+            "letter_spacing": "loose",
+            "alignment": "center"
+          },
+          "blocks": {}
+        },
+        "contact_heading": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Ask us anything about the K26.</h2>",
+            "width": "100%",
+            "type_preset": "h2",
+            "alignment": "center",
+            "wrap": "balance"
+          },
+          "blocks": {}
+        },
+        "contact_buttons": {
+          "type": "group",
+          "name": "Buttons",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "center",
+            "gap": 12,
+            "width": "fit-content"
+          },
+          "blocks": {
+            "contact_button": {
+              "type": "button",
+              "settings": {
+                "label": "Contact us",
+                "link": "/pages/contact",
+                "style_class": "button-secondary"
+              },
+              "blocks": {}
+            },
+            "shop_button": {
+              "type": "button",
+              "settings": {
+                "label": "Shop the K26",
+                "link": "/products/kickflight-k26",
+                "style_class": "button"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "contact_button",
+            "shop_button"
+          ]
+        }
+      },
+      "block_order": [
+        "contact_eyebrow",
+        "contact_heading",
+        "contact_buttons"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "faq_list",
+    "guarantees",
+    "contact_prompt"
+  ]
+}

@@ -29,6 +29,10 @@
     "slider_label": "Carrousel"
   },
   "accessibility": {
+    "customer_reviews": "Customer reviews",
+    "pause_reviews": "Pause scrolling reviews",
+    "review_photo": "Photo from {{ author }}",
+    "review_rating": "Rated {{ rating }} out of 5",
     "play_model": "Jouer le modèle 3D",
     "play_video": "Lire la vidéo",
     "unit_price": "Prix unitaire",
@@ -132,6 +136,12 @@
     "zoom_media": "Zoom du support multimédia {{ index }}"
   },
   "content": {
+    "verified_buyer": "Verified buyer",
+    "review_scroller_summary": {
+      "one": "{{ rating }} out of {{ scale_max }} · {{ count }} review",
+      "other": "{{ rating }} out of {{ scale_max }} · {{ count }} reviews"
+    },
+    "review_scroller_empty": "Add a Review block for each real customer review. This section stays hidden on your store until it has at least one.",
     "reviews": "avis",
     "language": "Langue",
     "localization_region_and_language": "Région et langue",

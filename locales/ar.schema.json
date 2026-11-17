@@ -215,6 +215,9 @@
     "work_quickly_to_ship": "<p>سنعمل بسرعة لشحن طلبك في أقرب وقت ممكن. بمجرد شحن طلبك، ستتلقى رسالة بريد إلكتروني تحتوي على مزيد من المعلومات. تختلف أوقات التوصيل حسب موقعك.</p>"
   },
   "info": {
+    "anchor_id": "Buttons can link here with #your-id, for example #reviews",
+    "show_rating_summary": "Shows the average rating and review count from your reviews app. Hidden until the product has ratings.",
+    "review_verified_buyer": "Only tick this for a review from a confirmed purchase.",
     "actions_display_style": "تُستخدم الأيقونات دائماً على الهاتف المحمول",
     "applies_on_image_only": "ينطبق على الصور فقط",
     "aspect_ratio_adjusted": "معدل في بعض التخطيطات",
@@ -244,6 +247,8 @@
     "media_type_info": "تمت تعبئة الميزات من روابط القائمة الخاصة بك"
   },
   "names": {
+    "review": "Review",
+    "review_scroller": "Review scroller",
     "column": "عمود",
     "product_title": "عنوان المنتج",
     "custom_liquid": "Liquid مخصص",
@@ -688,6 +693,14 @@
     "below_media": "أسفل الوسائط"
   },
   "settings": {
+    "anchor_id": "Anchor ID",
+    "author": "Name",
+    "card_background": "Card background",
+    "rating": "Rating",
+    "seconds_per_review": "Seconds per review",
+    "star_color": "Star color",
+    "show_rating_summary": "Show rating summary",
+    "verified_buyer": "Verified buyer",
     "accordion": "أكورديون",
     "account": "حساب",
     "actions_display_style": "نمط القائمة",
@@ -1104,6 +1117,7 @@
     "customer_account_menu": "قائمة حساب العميل"
   },
   "text_defaults": {
+    "review_scroller_heading": "What customers are saying",
     "accordion_heading": "عنوان القائمة المنسدلة",
     "are_purchases_final_sale": "هل هناك أي مشتريات تعتبر بيعاً نهائياً؟",
     "be_bold": "كن جريئًا.",

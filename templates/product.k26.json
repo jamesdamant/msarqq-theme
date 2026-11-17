@@ -1,0 +1,1789 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product-information",
+      "blocks": {
+        "disclosures_g9mWze": {
+          "type": "disclosures",
+          "name": "t:names.disclosures",
+          "settings": {
+            "heading": "Disclosures",
+            "heading_preset": "h5",
+            "open_by_default": false,
+            "icon": "caret",
+            "disclosure_heading_preset": "h6",
+            "text_color": "",
+            "dividers": true,
+            "divider_color": "{{ settings.color_palette.color2 }}",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {},
+          "disabled": true
+        },
+        "media-gallery": {
+          "type": "_product-media-gallery",
+          "static": true,
+          "settings": {
+            "media_presentation": "carousel",
+            "media_columns": "two",
+            "image_gap": 8,
+            "large_first_image": false,
+            "slideshow_controls_style": "thumbnails",
+            "slideshow_mobile_controls_style": "thumbnails",
+            "thumbnail_position": "bottom",
+            "thumbnail_width": 72,
+            "thumbnail_radius": 12,
+            "aspect_ratio": "1",
+            "constrain_to_viewport": true,
+            "media_fit": "contain",
+            "media_radius": 20,
+            "extend_media": false,
+            "zoom": true,
+            "video_loop": false,
+            "hide_variants": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "icons_style": "chevron"
+          },
+          "blocks": {}
+        },
+        "product-details": {
+          "type": "_product-details",
+          "static": true,
+          "settings": {
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "details_position": "flex-start",
+            "gap": 24,
+            "sticky_details_desktop": true,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 24,
+            "padding-block-end": 24,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "group_icgrde": {
+              "type": "group",
+              "name": "t:names.header",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "background_media": "none",
+                "background_color": "",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_xrnftG": {
+                  "type": "text",
+                  "name": "t:names.product_title",
+                  "settings": {
+                    "text": "<h1>{{ closest.product.title }}</h1>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h2",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "text_color": "",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "price_tVjtKg": {
+                  "type": "price",
+                  "settings": {
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": true,
+                    "type_preset": "h4",
+                    "width": "100%",
+                    "alignment": "left",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "text_color": "",
+                    "padding-block-start": 4,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "eyebrow_pdp": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Beginner drone · Crash-resistant cage</p>",
+                    "width": "fit-content",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "0.75rem",
+                    "letter_spacing": "loose",
+                    "case": "uppercase",
+                    "alignment": "left"
+                  },
+                  "blocks": {},
+                  "name": "Eyebrow"
+                },
+                "rating_line": {
+                  "type": "review",
+                  "name": "Rating summary",
+                  "settings": {
+                    "stars_style": "shaded",
+                    "show_number": true,
+                    "type_preset": "paragraph",
+                    "width": "fit-content"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "eyebrow_pdp",
+                "text_xrnftG",
+                "price_tVjtKg",
+                "rating_line"
+              ]
+            },
+            "divider_VJhene": {
+              "type": "_divider",
+              "name": "t:names.divider",
+              "settings": {
+                "thickness": 1,
+                "corner_radius": "square",
+                "divider_color": "{{ settings.color_palette.color2 }}",
+                "width_percent": 100,
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              },
+              "blocks": {}
+            },
+            "variant_picker_R3rGDr": {
+              "type": "variant-picker",
+              "settings": {
+                "variant_style": "buttons",
+                "show_swatches": false,
+                "option_label_text_color": "",
+                "variant_style_class": "default",
+                "custom_variant_background": "{{ settings.color_palette.background }}",
+                "custom_variant_text": "{{ settings.color_palette.foreground }}",
+                "custom_variant_border": "{{ settings.color_palette.foreground }}",
+                "selected_variant_style_class": "default",
+                "custom_selected_variant_background": "{{ settings.color_palette.foreground }}",
+                "custom_selected_variant_text": "{{ settings.color_palette.background }}",
+                "custom_selected_variant_border": "{{ settings.color_palette.foreground }}",
+                "alignment": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "buy_buttons_eYQEYi": {
+              "type": "buy-buttons",
+              "settings": {
+                "stacking": true,
+                "text_color": "",
+                "show_pickup_availability": false,
+                "gift_card_form": true,
+                "recipient_button_style": "default",
+                "recipient_button_background": "{{ settings.color_palette.background }}",
+                "recipient_button_text": "{{ settings.color_palette.foreground }}",
+                "recipient_button_border": "{{ settings.color_palette.foreground }}",
+                "selected_recipient_button_style": "default",
+                "selected_recipient_button_background": "{{ settings.color_palette.foreground }}",
+                "selected_recipient_button_text": "{{ settings.color_palette.background }}",
+                "selected_recipient_button_border": "{{ settings.color_palette.foreground }}",
+                "input_style": "default",
+                "input_background_color": "{{ settings.color_palette.background }}",
+                "input_text_color": "{{ settings.color_palette.foreground }}",
+                "input_border_color": "{{ settings.color_palette.foreground }}",
+                "border_width": 1,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "quantity": {
+                  "type": "quantity",
+                  "static": true,
+                  "settings": {
+                    "input_style": "default",
+                    "input_background_color": "{{ settings.color_palette.background }}",
+                    "input_text_color": "{{ settings.color_palette.foreground }}",
+                    "input_border_color": "{{ settings.color_palette.foreground }}",
+                    "border_width": 1,
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "add-to-cart": {
+                  "type": "add-to-cart",
+                  "static": true,
+                  "settings": {
+                    "style_class": "button",
+                    "custom_button_background": "{{ settings.color_palette.foreground }}",
+                    "custom_button_text": "{{ settings.color_palette.background }}",
+                    "custom_button_border": "{{ settings.color_palette.background }}"
+                  },
+                  "blocks": {}
+                },
+                "accelerated-checkout": {
+                  "type": "accelerated-checkout",
+                  "static": true,
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": []
+            },
+            "buy_two_promo": {
+              "type": "group",
+              "name": "Buy two promo",
+              "settings": {
+                "content_direction": "row",
+                "vertical_on_mobile": false,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "gap": 12,
+                "background_color": "{{ settings.color_palette.color2 }}",
+                "border_radius": 12,
+                "padding-block-start": 12,
+                "padding-block-end": 12,
+                "padding-inline-start": 16,
+                "padding-inline-end": 16
+              },
+              "blocks": {
+                "pdp_promo_icon": {
+                  "type": "icon",
+                  "settings": {
+                    "icon": "price_tag",
+                    "width": 20,
+                    "icon_color": "{{ settings.color_palette.foreground }}"
+                  },
+                  "blocks": {}
+                },
+                "pdp_promo_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Buy 2, save [JAMES: discount %]</strong>. One blue and one red means you can race. The discount applies automatically at checkout.</p>",
+                    "width": "100%",
+                    "type_preset": "paragraph"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "pdp_promo_icon",
+                "pdp_promo_text"
+              ],
+              "disabled": true
+            },
+            "trust_badges": {
+              "type": "group",
+              "name": "Trust badges",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "background_color": "{{ settings.color_palette.background }}",
+                "border": "solid",
+                "border_color": "{{ settings.color_palette.color2 }}",
+                "border_radius": 20,
+                "padding-block-start": 20,
+                "padding-block-end": 20,
+                "padding-inline-start": 20,
+                "padding-inline-end": 20
+              },
+              "blocks": {
+                "group_048": {
+                  "type": "group",
+                  "settings": {
+                    "content_direction": "row",
+                    "vertical_on_mobile": false,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "gap": 12
+                  },
+                  "blocks": {
+                    "icon_042": {
+                      "type": "icon",
+                      "settings": {
+                        "icon": "truck",
+                        "width": 20,
+                        "icon_color": "{{ settings.color_palette.foreground }}"
+                      },
+                      "blocks": {}
+                    },
+                    "text_043": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>[JAMES: delivery cost or threshold, dispatch window, tracked?]</p>",
+                        "width": "100%",
+                        "type_preset": "paragraph"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "icon_042",
+                    "text_043"
+                  ],
+                  "disabled": true
+                },
+                "group_049": {
+                  "type": "group",
+                  "settings": {
+                    "content_direction": "row",
+                    "vertical_on_mobile": false,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "gap": 12
+                  },
+                  "blocks": {
+                    "icon_044": {
+                      "type": "icon",
+                      "settings": {
+                        "icon": "return",
+                        "width": 20,
+                        "icon_color": "{{ settings.color_palette.foreground }}"
+                      },
+                      "blocks": {}
+                    },
+                    "text_045": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>[JAMES: N-day returns, 14 minimum]. See our <a href=\"/policies/refund-policy\" title=\"Refund policy\">refund policy</a>.</p>",
+                        "width": "100%",
+                        "type_preset": "paragraph"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "icon_044",
+                    "text_045"
+                  ],
+                  "disabled": true
+                },
+                "group_cage": {
+                  "type": "group",
+                  "settings": {
+                    "content_direction": "row",
+                    "vertical_on_mobile": false,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "gap": 12
+                  },
+                  "blocks": {
+                    "icon_cage": {
+                      "type": "icon",
+                      "settings": {
+                        "icon": "check_box",
+                        "width": 20,
+                        "icon_color": "{{ settings.color_palette.foreground }}"
+                      },
+                      "blocks": {}
+                    },
+                    "text_cage": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Crash-resistant cage keeps the propellers inside the ball</p>",
+                        "width": "100%",
+                        "type_preset": "paragraph"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "icon_cage",
+                    "text_cage"
+                  ]
+                },
+                "group_04a": {
+                  "type": "group",
+                  "settings": {
+                    "content_direction": "row",
+                    "vertical_on_mobile": false,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "gap": 12
+                  },
+                  "blocks": {
+                    "icon_046": {
+                      "type": "icon",
+                      "settings": {
+                        "icon": "lock",
+                        "width": 20,
+                        "icon_color": "{{ settings.color_palette.foreground }}"
+                      },
+                      "blocks": {}
+                    },
+                    "text_047": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Secure checkout with Shopify</p>",
+                        "width": "100%",
+                        "type_preset": "paragraph"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "icon_046",
+                    "text_047"
+                  ]
+                }
+              },
+              "block_order": [
+                "group_048",
+                "group_049",
+                "group_cage",
+                "group_04a"
+              ]
+            },
+            "intro_copy": {
+              "type": "text",
+              "settings": {
+                "text": "<p>A beginner drone for kids who crash everything: a real quadcopter inside a football-shaped cage. Kick it, toss it, fly it, repeat.</p>",
+                "width": "100%",
+                "type_preset": "rte",
+                "max_width": "none"
+              },
+              "blocks": {},
+              "name": "Intro"
+            },
+            "highlights": {
+              "type": "group",
+              "name": "Highlights",
+              "settings": {
+                "content_direction": "row",
+                "vertical_on_mobile": true,
+                "gap": 12
+              },
+              "blocks": {
+                "highlight_tough": {
+                  "type": "group",
+                  "settings": {
+                    "content_direction": "column",
+                    "gap": 8,
+                    "width": "fill",
+                    "background_color": "{{ settings.color_palette.background }}",
+                    "border": "solid",
+                    "border_color": "{{ settings.color_palette.color2 }}",
+                    "border_radius": 16,
+                    "padding-block-start": 16,
+                    "padding-block-end": 16,
+                    "padding-inline-start": 16,
+                    "padding-inline-end": 16
+                  },
+                  "blocks": {
+                    "highlight_tough_icon": {
+                      "type": "icon",
+                      "settings": {
+                        "icon": "check_box",
+                        "width": 24,
+                        "icon_color": "{{ settings.color_palette.foreground }}"
+                      },
+                      "blocks": {}
+                    },
+                    "highlight_tough_title": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p><strong>Built to take crashes</strong></p>",
+                        "width": "100%",
+                        "type_preset": "paragraph"
+                      },
+                      "blocks": {}
+                    },
+                    "highlight_tough_body": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>The propellers sit inside a 12.5 cm cage, so bumps into walls and goalposts hit the cage, not the props.</p>",
+                        "width": "100%",
+                        "type_preset": "paragraph"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "highlight_tough_icon",
+                    "highlight_tough_title",
+                    "highlight_tough_body"
+                  ]
+                },
+                "highlight_easy": {
+                  "type": "group",
+                  "settings": {
+                    "content_direction": "column",
+                    "gap": 8,
+                    "width": "fill",
+                    "background_color": "{{ settings.color_palette.background }}",
+                    "border": "solid",
+                    "border_color": "{{ settings.color_palette.color2 }}",
+                    "border_radius": 16,
+                    "padding-block-start": 16,
+                    "padding-block-end": 16,
+                    "padding-inline-start": 16,
+                    "padding-inline-end": 16
+                  },
+                  "blocks": {
+                    "highlight_easy_icon": {
+                      "type": "icon",
+                      "settings": {
+                        "icon": "lightning_bolt",
+                        "width": 24,
+                        "icon_color": "{{ settings.color_palette.foreground }}"
+                      },
+                      "blocks": {}
+                    },
+                    "highlight_easy_title": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p><strong>One-button take-off and landing</strong></p>",
+                        "width": "100%",
+                        "type_preset": "paragraph"
+                      },
+                      "blocks": {}
+                    },
+                    "highlight_easy_body": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Altitude hold keeps it at a steady height, so a first-time pilot only has to steer.</p>",
+                        "width": "100%",
+                        "type_preset": "paragraph"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "highlight_easy_icon",
+                    "highlight_easy_title",
+                    "highlight_easy_body"
+                  ]
+                }
+              },
+              "block_order": [
+                "highlight_tough",
+                "highlight_easy"
+              ]
+            },
+            "product_accordion": {
+              "type": "accordion",
+              "settings": {
+                "icon": "plus",
+                "divider_color": "{{ settings.color_palette.foreground }}",
+                "type_preset": "h6"
+              },
+              "blocks": {
+                "accordion_row_04e": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What’s in the box"
+                  },
+                  "blocks": {
+                    "text_04b": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<ul><li>1 × KickFlight K26 cage drone (blue or red)</li><li>1 × 2.4 GHz gamepad remote</li><li>1 × Clip-in rechargeable battery</li><li>1 × USB charging cable</li><li>4 × Spare propellers</li><li>1 × Instruction manual (in German)</li></ul>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_04b"
+                  ]
+                },
+                "accordion_row_safety": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Age & safety"
+                  },
+                  "blocks": {
+                    "text_safety": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>[JAMES TO SUPPLY: age rating and UKCA/CE marking, plus supervision guidance]</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_safety"
+                  ],
+                  "disabled": true
+                },
+                "accordion_row_specs": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Specs"
+                  },
+                  "blocks": {
+                    "text_specs": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<ul><li>Cage: 12.5 cm diameter, 11.5 cm tall</li><li>Remote: 2.4 GHz gamepad, two can fly at once</li><li>Flight time: manufacturer states up to 30 minutes</li><li>Battery: 1 × clip-in rechargeable, charges over USB</li><li>Flying aids: one-button take-off and landing, altitude hold, hand launch</li><li>Tricks: 360° roll button</li><li>Lights: RGB LEDs</li><li>Colours: blue or red</li></ul>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_specs"
+                  ]
+                },
+                "accordion_row_description": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Description"
+                  },
+                  "blocks": {
+                    "text_aEtTtq": {
+                      "type": "text",
+                      "name": "t:names.product_description",
+                      "settings": {
+                        "text": "{{ closest.product.description }}",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "text_color": "",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_aEtTtq"
+                  ]
+                },
+                "accordion_row_04g": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Delivery & returns"
+                  },
+                  "blocks": {
+                    "text_04d": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Delivery options and costs are shown at checkout before you pay. See our <a href=\"/policies/shipping-policy\" title=\"Shipping policy\">shipping policy</a> and <a href=\"/policies/refund-policy\" title=\"Refund policy\">refund policy</a> for the details.</p>",
+                        "width": "100%",
+                        "type_preset": "rte",
+                        "max_width": "none"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_04d"
+                  ]
+                }
+              },
+              "block_order": [
+                "accordion_row_04e",
+                "accordion_row_safety",
+                "accordion_row_specs",
+                "accordion_row_description",
+                "accordion_row_04g"
+              ]
+            }
+          },
+          "block_order": [
+            "group_icgrde",
+            "variant_picker_R3rGDr",
+            "buy_two_promo",
+            "buy_buttons_eYQEYi",
+            "trust_badges",
+            "divider_VJhene",
+            "intro_copy",
+            "highlights",
+            "product_accordion"
+          ]
+        }
+      },
+      "block_order": [
+        "disclosures_g9mWze"
+      ],
+      "settings": {
+        "content_width": "content-center-aligned",
+        "desktop_media_position": "left",
+        "equal_columns": false,
+        "limit_details_width": false,
+        "gap": 48,
+        "enable_sticky_add_to_cart": true,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 24,
+        "padding-block-end": 64
+      }
+    },
+    "reviews": {
+      "type": "review-scroller",
+      "name": "Reviews",
+      "settings": {
+        "heading": "What customers are saying",
+        "show_rating_summary": true,
+        "seconds_per_review": 5,
+        "anchor_id": "reviews",
+        "background_color": "{{ settings.color_palette.background }}",
+        "card_background": "{{ settings.color_palette.background }}",
+        "card_border_color": "{{ settings.color_palette.color2 }}",
+        "star_color": "{{ settings.color_palette.foreground }}",
+        "corner_radius": 20,
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "faq": {
+      "type": "section",
+      "name": "FAQ",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "space-between",
+        "vertical_alignment": "flex-start",
+        "gap": 48,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 100,
+        "padding-block-end": 100
+      },
+      "blocks": {
+        "faq_anchor": {
+          "type": "custom-liquid",
+          "name": "FAQ anchor",
+          "settings": {
+            "custom_liquid": "<span id=\"faq\" style=\"display: block; scroll-margin-top: calc(var(--header-height, 80px) + 24px);\"></span>"
+          },
+          "blocks": {}
+        },
+        "group_06s": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "gap": 16,
+            "width": "custom",
+            "custom_width": 35,
+            "width_mobile": "fill"
+          },
+          "blocks": {
+            "text_06c": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Questions</p>",
+                "width": "100%",
+                "type_preset": "custom",
+                "font": "var(--font-accent--family)",
+                "font_size": "0.75rem",
+                "letter_spacing": "loose",
+                "case": "uppercase",
+                "alignment": "left"
+              },
+              "blocks": {}
+            },
+            "text_06d": {
+              "type": "text",
+              "settings": {
+                "text": "<h2>What parents ask before buying</h2>",
+                "width": "100%",
+                "type_preset": "h2"
+              },
+              "blocks": {}
+            },
+            "text_06e": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Can’t find your answer? Send us a message.</p>",
+                "width": "100%",
+                "type_preset": "rte",
+                "max_width": "none"
+              },
+              "blocks": {}
+            },
+            "button_06f": {
+              "type": "button",
+              "settings": {
+                "label": "Contact us",
+                "link": "/pages/contact",
+                "style_class": "button-secondary"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_06c",
+            "text_06d",
+            "text_06e",
+            "button_06f"
+          ]
+        },
+        "accordion_06t": {
+          "type": "accordion",
+          "settings": {
+            "icon": "plus",
+            "divider_color": "{{ settings.color_palette.foreground }}",
+            "type_preset": "h5"
+          },
+          "blocks": {
+            "accordion_row_pdp_age": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What age is it suitable for?"
+              },
+              "blocks": {
+                "text_pdp_age": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>[JAMES TO SUPPLY: verified age rating from the CE/UKCA documentation]</p>",
+                    "width": "100%",
+                    "type_preset": "rte",
+                    "max_width": "none"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_pdp_age"
+              ],
+              "disabled": true
+            },
+            "accordion_row_pdp_crash": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What happens if it crashes?",
+                "open_by_default": true
+              },
+              "blocks": {
+                "text_pdp_crash": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The propellers sit inside a 12.5 cm football-shaped cage, so walls, fences and the ground hit the cage instead of the props. Four spare propellers come in the box in case one gets bent.</p>",
+                    "width": "100%",
+                    "type_preset": "rte",
+                    "max_width": "none"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_pdp_crash"
+              ]
+            },
+            "accordion_row_pdp_hard": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Is it hard to fly?"
+              },
+              "blocks": {
+                "text_pdp_hard": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>No. One button takes off and one lands, and altitude hold keeps it at a steady height, so a beginner only has to steer. You can also start a flight by tossing it from your hand.</p>",
+                    "width": "100%",
+                    "type_preset": "rte",
+                    "max_width": "none"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_pdp_hard"
+              ]
+            },
+            "accordion_row_pdp_box": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What’s in the box?"
+              },
+              "blocks": {
+                "text_pdp_box": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<ul><li>1 × KickFlight K26 cage drone (blue or red)</li><li>1 × 2.4 GHz gamepad remote</li><li>1 × Clip-in rechargeable battery</li><li>1 × USB charging cable</li><li>4 × Spare propellers</li><li>1 × Instruction manual (in German)</li></ul>",
+                    "width": "100%",
+                    "type_preset": "rte",
+                    "max_width": "none"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_pdp_box"
+              ]
+            },
+            "accordion_row_pdp_flight": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How long does a flight last?"
+              },
+              "blocks": {
+                "text_pdp_flight": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The manufacturer states up to 30 minutes of flight time.</p>",
+                    "width": "100%",
+                    "type_preset": "rte",
+                    "max_width": "none"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_pdp_flight"
+              ]
+            },
+            "accordion_row_pdp_remote": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What batteries does the remote need?"
+              },
+              "blocks": {
+                "text_pdp_remote": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>[JAMES TO SUPPLY: remote battery type and count, and whether they are included]</p>",
+                    "width": "100%",
+                    "type_preset": "rte",
+                    "max_width": "none"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_pdp_remote"
+              ],
+              "disabled": true
+            },
+            "accordion_row_pdp_indoors": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Can it fly indoors?"
+              },
+              "blocks": {
+                "text_pdp_indoors": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>[JAMES TO SUPPLY: confirmed indoor/outdoor guidance and minimum room size]</p>",
+                    "width": "100%",
+                    "type_preset": "rte",
+                    "max_width": "none"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_pdp_indoors"
+              ],
+              "disabled": true
+            },
+            "accordion_row_pdp_two": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Can two fly at the same time?"
+              },
+              "blocks": {
+                "text_pdp_two": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Yes. The remote runs on 2.4 GHz, so two K26s can fly side by side. Pick one blue and one red and you can tell them apart in the air.</p>",
+                    "width": "100%",
+                    "type_preset": "rte",
+                    "max_width": "none"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_pdp_two"
+              ]
+            },
+            "accordion_row_pdp_arrive": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "When will my order arrive?"
+              },
+              "blocks": {
+                "text_pdp_arrive": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>[JAMES TO SUPPLY: dispatch window and typical UK delivery time]</p>",
+                    "width": "100%",
+                    "type_preset": "rte",
+                    "max_width": "none"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_pdp_arrive"
+              ],
+              "disabled": true
+            }
+          },
+          "block_order": [
+            "accordion_row_pdp_age",
+            "accordion_row_pdp_crash",
+            "accordion_row_pdp_hard",
+            "accordion_row_pdp_box",
+            "accordion_row_pdp_flight",
+            "accordion_row_pdp_remote",
+            "accordion_row_pdp_indoors",
+            "accordion_row_pdp_two",
+            "accordion_row_pdp_arrive"
+          ]
+        }
+      },
+      "block_order": [
+        "faq_anchor",
+        "group_06s",
+        "accordion_06t"
+      ]
+    },
+    "how_it_works": {
+      "type": "section",
+      "name": "How it works",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "center",
+        "gap": 56,
+        "background_color": "{{ settings.color_palette.color2 }}",
+        "padding-block-start": 100,
+        "padding-block-end": 100
+      },
+      "blocks": {
+        "group_055": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "gap": 12,
+            "horizontal_alignment_flex_direction_column": "center"
+          },
+          "blocks": {
+            "text_04r": {
+              "type": "text",
+              "settings": {
+                "text": "<p>How it works</p>",
+                "width": "100%",
+                "type_preset": "custom",
+                "font": "var(--font-accent--family)",
+                "font_size": "0.75rem",
+                "letter_spacing": "loose",
+                "case": "uppercase",
+                "alignment": "center"
+              },
+              "blocks": {}
+            },
+            "text_04s": {
+              "type": "text",
+              "settings": {
+                "text": "<h2>Out of the box and flying in three steps</h2>",
+                "width": "100%",
+                "type_preset": "h2",
+                "alignment": "center",
+                "wrap": "balance"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_04r",
+            "text_04s"
+          ]
+        },
+        "group_056": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "gap": 16
+          },
+          "blocks": {
+            "group_052": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "background_color": "{{ settings.color_palette.background }}",
+                "border_radius": 20,
+                "padding-block-start": 32,
+                "padding-block-end": 32,
+                "padding-inline-start": 28,
+                "padding-inline-end": 28
+              },
+              "blocks": {
+                "text_04t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>01</p>",
+                    "width": "100%",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "0.75rem",
+                    "letter_spacing": "loose",
+                    "case": "uppercase",
+                    "alignment": "left"
+                  },
+                  "blocks": {}
+                },
+                "text_04u": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Charge</h3>",
+                    "width": "100%",
+                    "type_preset": "h4"
+                  },
+                  "blocks": {}
+                },
+                "text_04v": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Clip the battery out and charge it over USB with the cable in the box.</p>",
+                    "width": "100%",
+                    "type_preset": "rte",
+                    "max_width": "none"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_04t",
+                "text_04u",
+                "text_04v"
+              ]
+            },
+            "group_053": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "background_color": "{{ settings.color_palette.background }}",
+                "border_radius": 20,
+                "padding-block-start": 32,
+                "padding-block-end": 32,
+                "padding-inline-start": 28,
+                "padding-inline-end": 28
+              },
+              "blocks": {
+                "text_04w": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>02</p>",
+                    "width": "100%",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "0.75rem",
+                    "letter_spacing": "loose",
+                    "case": "uppercase",
+                    "alignment": "left"
+                  },
+                  "blocks": {}
+                },
+                "text_04x": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Launch</h3>",
+                    "width": "100%",
+                    "type_preset": "h4"
+                  },
+                  "blocks": {}
+                },
+                "text_04y": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Switch on the drone and remote, then press take-off or toss it from your hand.</p>",
+                    "width": "100%",
+                    "type_preset": "rte",
+                    "max_width": "none"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_04w",
+                "text_04x",
+                "text_04y"
+              ]
+            },
+            "group_054": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "background_color": "{{ settings.color_palette.background }}",
+                "border_radius": 20,
+                "padding-block-start": 32,
+                "padding-block-end": 32,
+                "padding-inline-start": 28,
+                "padding-inline-end": 28
+              },
+              "blocks": {
+                "text_04z": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>03</p>",
+                    "width": "100%",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "0.75rem",
+                    "letter_spacing": "loose",
+                    "case": "uppercase",
+                    "alignment": "left"
+                  },
+                  "blocks": {}
+                },
+                "text_050": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Fly</h3>",
+                    "width": "100%",
+                    "type_preset": "h4"
+                  },
+                  "blocks": {}
+                },
+                "text_051": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Altitude hold keeps the height steady while you steer. One button brings it down.</p>",
+                    "width": "100%",
+                    "type_preset": "rte",
+                    "max_width": "none"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_04z",
+                "text_050",
+                "text_051"
+              ]
+            }
+          },
+          "block_order": [
+            "group_052",
+            "group_053",
+            "group_054"
+          ]
+        }
+      },
+      "block_order": [
+        "group_055",
+        "group_056"
+      ]
+    },
+    "guarantees": {
+      "type": "section",
+      "name": "Guarantees",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "space-between",
+        "vertical_alignment": "center",
+        "gap": 24,
+        "background_color": "{{ settings.color_palette.color2 }}",
+        "padding-block-start": 44,
+        "padding-block-end": 44
+      },
+      "blocks": {
+        "group_068": {
+          "type": "group",
+          "name": "Guarantee",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "gap": 14,
+            "width": "fit-content"
+          },
+          "blocks": {
+            "icon_05u": {
+              "type": "icon",
+              "settings": {
+                "icon": "truck",
+                "width": 28,
+                "icon_color": "{{ settings.color_palette.foreground }}"
+              },
+              "blocks": {}
+            },
+            "group_05v": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 2
+              },
+              "blocks": {
+                "text_05s": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>[JAMES: delivery headline]</strong></p>",
+                    "width": "100%",
+                    "type_preset": "paragraph"
+                  },
+                  "blocks": {}
+                },
+                "text_05t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>[JAMES: delivery detail]</p>",
+                    "width": "100%",
+                    "type_preset": "custom",
+                    "alignment": "left",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "0.75rem",
+                    "letter_spacing": "loose",
+                    "case": "uppercase"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_05s",
+                "text_05t"
+              ]
+            }
+          },
+          "block_order": [
+            "icon_05u",
+            "group_05v"
+          ],
+          "disabled": true
+        },
+        "group_069": {
+          "type": "group",
+          "name": "Guarantee",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "gap": 14,
+            "width": "fit-content"
+          },
+          "blocks": {
+            "icon_05y": {
+              "type": "icon",
+              "settings": {
+                "icon": "return",
+                "width": 28,
+                "icon_color": "{{ settings.color_palette.foreground }}"
+              },
+              "blocks": {}
+            },
+            "group_05z": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 2
+              },
+              "blocks": {
+                "text_05w": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>[JAMES: returns window, 14 days minimum]</strong></p>",
+                    "width": "100%",
+                    "type_preset": "paragraph"
+                  },
+                  "blocks": {}
+                },
+                "text_05x": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>[JAMES: returns detail]</p>",
+                    "width": "100%",
+                    "type_preset": "custom",
+                    "alignment": "left",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "0.75rem",
+                    "letter_spacing": "loose",
+                    "case": "uppercase"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_05w",
+                "text_05x"
+              ]
+            }
+          },
+          "block_order": [
+            "icon_05y",
+            "group_05z"
+          ],
+          "disabled": true
+        },
+        "group_06a": {
+          "type": "group",
+          "name": "Guarantee",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "gap": 14,
+            "width": "fit-content"
+          },
+          "blocks": {
+            "icon_062": {
+              "type": "icon",
+              "settings": {
+                "icon": "check_box",
+                "width": 28,
+                "icon_color": "{{ settings.color_palette.foreground }}"
+              },
+              "blocks": {}
+            },
+            "group_063": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 2
+              },
+              "blocks": {
+                "text_060": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Crash-resistant cage</strong></p>",
+                    "width": "100%",
+                    "type_preset": "paragraph"
+                  },
+                  "blocks": {}
+                },
+                "text_061": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Props sit inside the ball</p>",
+                    "width": "100%",
+                    "type_preset": "custom",
+                    "alignment": "left",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "0.75rem",
+                    "letter_spacing": "loose",
+                    "case": "uppercase"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_060",
+                "text_061"
+              ]
+            }
+          },
+          "block_order": [
+            "icon_062",
+            "group_063"
+          ]
+        },
+        "group_06b": {
+          "type": "group",
+          "name": "Guarantee",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "gap": 14,
+            "width": "fit-content"
+          },
+          "blocks": {
+            "icon_066": {
+              "type": "icon",
+              "settings": {
+                "icon": "lock",
+                "width": 28,
+                "icon_color": "{{ settings.color_palette.foreground }}"
+              },
+              "blocks": {}
+            },
+            "group_067": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 2
+              },
+              "blocks": {
+                "text_064": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Secure checkout</strong></p>",
+                    "width": "100%",
+                    "type_preset": "paragraph"
+                  },
+                  "blocks": {}
+                },
+                "text_065": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Powered by Shopify</p>",
+                    "width": "100%",
+                    "type_preset": "custom",
+                    "alignment": "left",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "0.75rem",
+                    "letter_spacing": "loose",
+                    "case": "uppercase"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_064",
+                "text_065"
+              ]
+            }
+          },
+          "block_order": [
+            "icon_066",
+            "group_067"
+          ]
+        }
+      },
+      "block_order": [
+        "group_068",
+        "group_069",
+        "group_06a",
+        "group_06b"
+      ]
+    },
+    "product_recommendations_qggXJq": {
+      "type": "product-recommendations",
+      "blocks": {
+        "text_cbcgyb": {
+          "type": "text",
+          "name": "t:names.header",
+          "settings": {
+            "text": "<h3>You may also like </h3>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 8,
+            "background_color": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 8,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_DNizbJ": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "adapt",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_title_M7MJkb": {
+              "type": "product-title",
+              "name": "t:names.product_title",
+              "settings": {
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price_gLWgA6": {
+              "type": "price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "h6",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "text_color": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_DNizbJ",
+            "product_title_M7MJkb",
+            "price_gLWgA6"
+          ]
+        }
+      },
+      "block_order": [
+        "text_cbcgyb"
+      ],
+      "name": "t:names.product_recommendations",
+      "settings": {
+        "product": "{{ closest.product }}",
+        "recommendation_type": "related",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 4,
+        "columns": 4,
+        "mobile_columns": "2",
+        "columns_gap": 12,
+        "rows_gap": 24,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "gap": 28,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "reviews",
+    "faq",
+    "how_it_works",
+    "guarantees",
+    "product_recommendations_qggXJq"
+  ]
+}

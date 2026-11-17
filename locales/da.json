@@ -29,6 +29,10 @@
     "slider_label": "Billedkarrusel"
   },
   "accessibility": {
+    "customer_reviews": "Customer reviews",
+    "pause_reviews": "Pause scrolling reviews",
+    "review_photo": "Photo from {{ author }}",
+    "review_rating": "Rated {{ rating }} out of 5",
     "play_model": "Afspil 3D-model",
     "play_video": "Afspil video",
     "unit_price": "Stykpris",
@@ -130,6 +134,12 @@
     "back_to_main_menu": "Tilbage til hovedmenu"
   },
   "content": {
+    "verified_buyer": "Verified buyer",
+    "review_scroller_summary": {
+      "one": "{{ rating }} out of {{ scale_max }} · {{ count }} review",
+      "other": "{{ rating }} out of {{ scale_max }} · {{ count }} reviews"
+    },
+    "review_scroller_empty": "Add a Review block for each real customer review. This section stays hidden on your store until it has at least one.",
     "reviews": "anmeldelser",
     "language": "Sprog",
     "localization_region_and_language": "Område og sprog",

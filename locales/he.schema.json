@@ -215,6 +215,9 @@
     "work_quickly_to_ship": "<p>נעבוד מהר כדי לשלוח את ההזמנה שלך בהקדם האפשרי. לאחר שההזמנה שלך תישלח, תקבל דוא&quot;ל עם מידע נוסף. זמני האספקה משתנים בהתאם למיקומך.</p>"
   },
   "info": {
+    "anchor_id": "Buttons can link here with #your-id, for example #reviews",
+    "show_rating_summary": "Shows the average rating and review count from your reviews app. Hidden until the product has ratings.",
+    "review_verified_buyer": "Only tick this for a review from a confirmed purchase.",
     "actions_display_style": "תמיד נעשה שימוש בסמלים בנייד",
     "applies_on_image_only": "חל על תמונות בלבד",
     "aspect_ratio_adjusted": "מותאם בחלק מהפריסות",
@@ -244,6 +247,8 @@
     "media_type_info": "התכונות מאוכלסות מקישורי התפריט שלך"
   },
   "names": {
+    "review": "Review",
+    "review_scroller": "Review scroller",
     "column": "עמודה",
     "product_title": "כותרת מוצר",
     "custom_liquid": "Custom Liquid",
@@ -688,6 +693,14 @@
     "direction_top_start": "למעלה, התחלה"
   },
   "settings": {
+    "anchor_id": "Anchor ID",
+    "author": "Name",
+    "card_background": "Card background",
+    "rating": "Rating",
+    "seconds_per_review": "Seconds per review",
+    "star_color": "Star color",
+    "show_rating_summary": "Show rating summary",
+    "verified_buyer": "Verified buyer",
     "accordion": "אקורדיון",
     "account": "חשבון",
     "actions_display_style": "סגנון תפריט",
@@ -1104,6 +1117,7 @@
     "customer_account_menu": "תפריט חשבון לקוח"
   },
   "text_defaults": {
+    "review_scroller_heading": "What customers are saying",
     "accordion_heading": "כותרת אקורדיון",
     "are_purchases_final_sale": "האם יש רכישות שהן מכירה סופית?",
     "be_bold": "להיות נועזים.",
